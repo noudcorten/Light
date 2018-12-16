@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     // MARK: updates the UI by changing the background color and the label's color and text
+    // test
     func updateUI(){
         view.backgroundColor = lightOn ? .white : .black
         if lightOn == true {
